@@ -14,7 +14,7 @@ public class UserApplication {
 
 		  boolean isUserNameAndPasswordCorrect = false;
 		  int j = 1;
-		  while(j < 5 && !(isUserNameAndPasswordCorrect)) {
+		  while(j < 6 && !(isUserNameAndPasswordCorrect)) {
 				System.out.println("username");
 				String userNameInput = userInput.next();
 				System.out.println("password");
@@ -30,7 +30,7 @@ public class UserApplication {
 					 }
 
 				}
-				if(j < 4 && !isUserNameAndPasswordCorrect) {
+				if(j < 5 && !isUserNameAndPasswordCorrect) {
 					 System.out.println("Invalid login, please try again");
 
 				}
